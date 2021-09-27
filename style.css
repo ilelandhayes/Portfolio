@@ -14,10 +14,16 @@ body {
   padding-top: 8rem;
 }
 
-#title-1 {
+#title {
   font-size: 9.5rem;
   font-weight: 680;
   line-height: 9.3rem;
+  display: inline-block;
+  opacity: 1;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .occupancy {
@@ -91,7 +97,7 @@ body {
 #aboutme {
   text-align: center;
   font-weight: 450;
-  font-size: 4rem;
+  font-size: 4em;
   margin-bottom: 1.5rem;
 }
 
