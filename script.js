@@ -22,4 +22,9 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`#aboutme`,{origin: 'left', delay: 200});
-sr.reveal(`#aboutme-para`,{origin: 'right', delay: 200});
+sr.reveal(`#aboutme-para`,{origin: 'right', delay: 300});
+sr.reveal(`.skill-name`,{origin: 'bottom', delay: 400});
+sr.reveal(`.icon-skill`,{origin: 'top', delay: 400});
+sr.reveal(`.skill-name-p`,{origin: 'left', delay: 500});
+sr.reveal(`.list-title`,{origin: 'right', delay: 500});
+sr.reveal(`.skill-details`,{origin: 'bottom', delay: 500});

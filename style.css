@@ -21,9 +21,6 @@ body {
   display: inline-block;
   opacity: 1;
   display: inline-block;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
 }
 
 .occupancy {
@@ -131,7 +128,6 @@ body {
 }
 
 .skill-headers {
-  /* margin-top: -6rem; */
   border-radius: 1rem;
   display: flex;
   flex-direction: row;
@@ -141,18 +137,9 @@ body {
 }
 
 .skill-name {
-  font-size: 2em;
+  font-size: 3em;
   color: white;
-  font-weight: 400;
-}
-
-.skill-name-p {
-  color: white;
-}
-
-.icon-skill {
-  height: 50px;
-  width: 50px;
+  font-weight: 450;
 }
 
 .skill-details {
@@ -165,5 +152,6 @@ body {
 }
 
 .list-title {
-  font-size: 1.3em;
+  font-size: 1.9em;
+  color: white;
 }
