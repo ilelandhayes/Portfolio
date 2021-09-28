@@ -12,3 +12,14 @@ jQuery(document).ready(function($) {
         });
     });
 });
+
+// Scroll
+const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    reset: false
+});
+
+sr.reveal(`#aboutme`,{origin: 'left', delay: 200});
+sr.reveal(`#aboutme-para`,{origin: 'right', delay: 200});
