@@ -27,20 +27,33 @@ body {
 }
 
 .occupancy {
-  font-size: 3rem;
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-top: 2.9rem;
 }
 
+#typing-demo {
+  font-size: 3rem;
+  width: 14.5ch;
+  animation: typing 2s steps(20), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
 #section05 {
-  padding-top: 135px;
+  padding-top: 140px;
 }
 
 #section05 #scroll-span {
   position: absolute;
   left: 50%;
-  top: 76%;
   width: 24px;
   height: 24px;
   margin-left: -12px;
