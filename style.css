@@ -16,9 +16,8 @@ body {
 
 .space {
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  background: black;
+  width: 100%;
+  height: 100%;
 }
 
 .particle,
@@ -632,9 +631,24 @@ body {
 
 .skills-lists {
   margin-top: 0.7rem;
+  font-size: 1.3em;
 }
 
 .list-title {
   font-size: 1.9em;
   color: white;
+}
+
+.footerr {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  margin-top: 2rem;
+}
+
+.footer-cont {
+  background: transparent;
 }
