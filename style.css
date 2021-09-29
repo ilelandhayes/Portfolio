@@ -4,6 +4,7 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
+/* Partical Backgrounds */
 @keyframes particles {
   0% {
     transform: translateY(0px);
@@ -484,6 +485,7 @@ body {
   height: 2px;
 }
 
+/* Titles */
 .place-holder {
   max-width: 67rem;
   margin: auto;
@@ -500,9 +502,9 @@ body {
   line-height: 9.3rem;
   display: inline-block;
   opacity: 1;
-  display: inline-block;
 }
 
+/* Description Title */
 .occupancy {
   display: flex;
   align-items: center;
