@@ -509,6 +509,31 @@ body {
   line-height: 9.3rem;
   display: inline-block;
   opacity: 1;
+  color: white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+#title-1 {
+  font-size: 9.5rem;
+  font-weight: 680;
+  line-height: 9.3rem;
+  display: inline-block;
+  opacity: 1;
+  color: #fdd808;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+#title-2 {
+  font-size: 9.5rem;
+  font-weight: 680;
+  line-height: 9.3rem;
+  display: inline-block;
+  opacity: 1;
+  color: #fdd808;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
 }
 
 /* Description Title */
@@ -600,6 +625,9 @@ body {
   font-weight: 450;
   font-size: 4em;
   margin-bottom: 1.5rem;
+  color: #fdd808;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
 }
 
 #aboutme-para {
@@ -614,18 +642,22 @@ body {
 #skills {
   height: fit-content;
   margin-top: 8rem;
-  background: #0d0d0d;
-  border-radius: 0.7rem;
 }
 
 .skill-headers {
-  border-radius: 1rem;
+  border-radius: 1.6rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: fit-content;
   box-shadow: 0px 6px 29px -2px black;
   background: #0d0d0d;
+}
+
+#borders {
+  border: solid transparent;
+  border-image-slice: 1;
+  border-radius: 1rem;
 }
 
 .skill-name {
@@ -657,6 +689,7 @@ body {
   background: #0d0d0d;
   color: white;
   margin-top: 2rem;
+  border-radius: 0.5rem;
 }
 
 .footer-cont {
@@ -666,12 +699,40 @@ body {
 #instagram {
   height: 2rem;
   width: 2rem;
-  margin-right: 1.2rem;
+  margin-right: 0.7rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
 #facebook {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+#github {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#twitter {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#linkedin {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#email {
   height: 2rem;
   width: 2rem;
   margin-left: 1.2rem;

@@ -21,7 +21,9 @@ const sr = ScrollReveal({
     reset: false
 });
 
-sr.reveal(`#title`,{origin: 'top', delay: 200});
+sr.reveal(`#title`,{origin: 'top', delay: 300});
+sr.reveal(`#title-1`,{origin: 'top', delay: 800});
+sr.reveal(`#title-2`,{origin: 'top', delay: 1300});
 sr.reveal(`#aboutme`,{origin: 'left', delay: 200});
 sr.reveal(`#aboutme-para`,{origin: 'right', delay: 250});
 sr.reveal(`.skill-name`,{origin: 'bottom', delay: 400});
