@@ -499,7 +499,7 @@ body {
 }
 
 .title-container {
-  margin-top: 7rem;
+  margin-top: 3rem;
   height: fit-content;
 }
 
@@ -517,7 +517,7 @@ body {
   display: inline-block;
   opacity: 1;
   color: white;
-  margin-bottom: 1vw;
+  /* margin-bottom: 1vw; */
 }
 
 #title-1 {
@@ -526,7 +526,7 @@ body {
   line-height: 9.3rem;
   display: inline-block;
   opacity: 1;
-  margin-bottom: 1vw;
+  /* margin-bottom: 1vw; */
   color: #fdd808;
 }
 
