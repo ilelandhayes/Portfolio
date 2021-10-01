@@ -503,6 +503,12 @@ body {
   height: fit-content;
 }
 
+@media screen and (max-width: 610px) {
+  .title-container {
+    margin-top: 2rem;
+  }
+}
+
 #title {
   font-size: 12em;
   font-weight: 680;
@@ -535,7 +541,6 @@ body {
 @media screen and (max-width: 610px) {
   .hello {
     font-size: 7.1em !important;
-    margin-top: 3.5rem !important;
   }
 }
 
