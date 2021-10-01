@@ -506,7 +506,7 @@ body {
 @media screen and (max-width: 610px) {
   .title-container {
     margin-top: 0.8rem;
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
   }
 }
 
