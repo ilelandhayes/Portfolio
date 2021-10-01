@@ -506,6 +506,7 @@ body {
 @media screen and (max-width: 610px) {
   .title-container {
     margin-top: 0.8rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -541,6 +542,7 @@ body {
 @media screen and (max-width: 610px) {
   .hello {
     font-size: 7.1em !important;
+    height: 100px;
   }
 }
 
@@ -553,6 +555,7 @@ body {
 @media screen and (max-width: 610px) {
   .occupancy {
     font-size: 0.7em !important;
+    margin-top: 4.5rem;
   }
 }
 
@@ -623,7 +626,7 @@ body {
   flex-direction: column;
   height: fit-content;
   margin-bottom: 0;
-  margin-top: 7.5rem;
+  margin-top: 14rem;
 }
 
 .about-section {
