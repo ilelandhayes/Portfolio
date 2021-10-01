@@ -500,7 +500,7 @@ body {
 
 .title-container {
   margin-top: 7rem;
-  height: 930px;
+  height: fit-content;
 }
 
 #title {
@@ -532,10 +532,22 @@ body {
   color: #fdd808;
 }
 
+@media screen and (max-width: 610px) {
+  .hello {
+    font-size: 7.1em !important;
+  }
+}
+
 /* Description Title */
 .occupancy {
   max-width: 67rem;
   margin-top: 2.9rem;
+}
+
+@media screen and (max-width: 610px) {
+  .occupancy {
+    font-size: 0.7em !important;
+  }
 }
 
 #typing-demo {
@@ -603,7 +615,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 600px;
+  height: fit-content;
   margin-bottom: 0;
 }
 
