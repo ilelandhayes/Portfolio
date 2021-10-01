@@ -542,7 +542,7 @@ body {
 @media screen and (max-width: 610px) {
   .hello {
     font-size: 7.1em !important;
-    height: 100px;
+    height: 120px;
   }
 }
 
