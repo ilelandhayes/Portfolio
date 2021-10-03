@@ -31,8 +31,10 @@ sr.reveal(`.icon-skill`,{origin: 'top', delay: 400});
 sr.reveal(`.skill-name-p`,{origin: 'left', delay: 500});
 sr.reveal(`.list-title`,{origin: 'right', delay: 500});
 sr.reveal(`.skill-details`,{origin: 'bottom', delay: 500});
+sr.reveal(`h1`,{origin: 'top', delay: 500});
 
-// Light or Dark mode
+
+// Light and Dark mode
 // function toggle_light_mode() {
 //     var app = document.getElementsByTagName("BODY")[0];
 //     if (localStorage.lightMode == "dark") {

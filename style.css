@@ -676,7 +676,7 @@ body {
 
 .skill-details {
   color: white;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .skills-lists {
@@ -690,7 +690,7 @@ body {
 }
 
 /* Work */
-h1 {
+.work-title {
   font-size: 3rem !important;
   font-weight: 450 !important;
   color: #fdd808;
