@@ -649,6 +649,14 @@ body {
   font-weight: 200;
   line-height: 1.8;
   font-size: 2em;
+  margin-bottom: 2rem;
+}
+
+#resume {
+  text-align: center;
+  font-weight: 200;
+  line-height: 1.8;
+  font-size: 2em;
   margin-bottom: 4rem;
 }
 
